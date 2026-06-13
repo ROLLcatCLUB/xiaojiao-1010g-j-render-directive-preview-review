@@ -1,0 +1,20 @@
+{
+  "stage": "1010J_RENDER_DIRECTIVE_PREVIEW_SMOKE_AND_REVIEW_PACKAGE",
+  "final_status": "XIAOJIAO_RENDER_DIRECTIVE_PREVIEW_SMOKE_AND_REVIEW_PACKAGE_PASS",
+  "zip_path": "docs/audit_packages/xiaojiao_render_directive_preview_smoke_and_review_package_1010J.zip",
+  "zip_sha256": "1B32D48E54408AD8D44E82968BFDA60AC127A542D6ABF6AC92CC350C2B73C3B5",
+  "zip_entry_count": 7,
+  "zip_entries": [
+    "docs/foundation/xiaojiao_render_directive_preview_smoke_and_review_package_1010J.md",
+    "docs/foundation/xiaojiao_render_directive_preview_smoke_and_review_package_1010J.json",
+    "samples/xiaojiao_render_directive_preview_smoke_and_review_package_1010J/render_directive_preview_smoke_trace_1010J.json",
+    "docs/audit/xiaojiao_render_directive_preview_smoke_and_review_package_1010J_result.json",
+    "docs/audit/xiaojiao_render_directive_preview_smoke_and_review_package_1010J_report.md",
+    "scripts/validate_xiaojiao_render_directive_preview_smoke_and_review_package_1010J.py",
+    "docs/audit_packages/xiaojiao_render_directive_preview_smoke_and_review_package_1010J_manifest.json"
+  ],
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "forbidden_files_present": [],
+  "marker": "ALL_1010J_RENDER_DIRECTIVE_PREVIEW_SMOKE_AND_REVIEW_PACKAGE_CHECKS_OK"
+}

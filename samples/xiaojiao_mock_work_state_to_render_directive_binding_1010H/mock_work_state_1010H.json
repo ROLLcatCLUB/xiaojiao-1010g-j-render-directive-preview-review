@@ -1,0 +1,39 @@
+{
+  "teacher_id": "teacher_art_001",
+  "teacher_name": "张老师",
+  "week": 3,
+  "weekday": "周三",
+  "today_lessons": [
+    {
+      "id": "lesson_L001",
+      "title": "线条的节奏",
+      "status": "ready"
+    },
+    {
+      "id": "lesson_L003",
+      "title": "色彩的感觉",
+      "status": "draft_pending_confirmation"
+    },
+    {
+      "id": "lesson_L006",
+      "title": "有趣的泥塑",
+      "status": "watching"
+    }
+  ],
+  "current_priority_item": "lesson_L003",
+  "current_surface": "light_entry",
+  "current_lesson": {
+    "id": "lesson_L003",
+    "title": "色彩的感觉",
+    "grade": "四年级 1 班"
+  },
+  "lesson_draft_status": "pending_confirmation",
+  "inquiry_section_minutes": 25,
+  "display_section_minutes": 8,
+  "handout_status": "not_generated",
+  "handout_candidate": null,
+  "teacher_review_required": false,
+  "formal_apply_performed": false,
+  "process_note_candidate": null,
+  "event_log": []
+}

@@ -1,0 +1,20 @@
+{
+  "stage": "1010I_PREVIEW_ROUTE_RENDER_DIRECTIVE_REFACTOR",
+  "final_status": "XIAOJIAO_PREVIEW_ROUTE_RENDER_DIRECTIVE_REFACTOR_PASS",
+  "zip_path": "docs/audit_packages/xiaojiao_preview_route_render_directive_refactor_1010I.zip",
+  "zip_sha256": "A79A20CB4D09FC5024E422AC85394F3CAC9DE43957D9E7AFD161E4007C9F3D2D",
+  "zip_entry_count": 7,
+  "zip_entries": [
+    "docs/foundation/xiaojiao_preview_route_render_directive_refactor_1010I.md",
+    "docs/foundation/xiaojiao_preview_route_render_directive_refactor_1010I.json",
+    "samples/xiaojiao_preview_route_render_directive_refactor_1010I/render_directive_refactor_trace_1010I.json",
+    "docs/audit/xiaojiao_preview_route_render_directive_refactor_1010I_result.json",
+    "docs/audit/xiaojiao_preview_route_render_directive_refactor_1010I_report.md",
+    "scripts/validate_xiaojiao_preview_route_render_directive_refactor_1010I.py",
+    "docs/audit_packages/xiaojiao_preview_route_render_directive_refactor_1010I_manifest.json"
+  ],
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "forbidden_files_present": [],
+  "marker": "ALL_1010I_PREVIEW_ROUTE_RENDER_DIRECTIVE_REFACTOR_CHECKS_OK"
+}

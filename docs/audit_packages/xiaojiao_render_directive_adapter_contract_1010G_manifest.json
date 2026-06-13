@@ -1,0 +1,20 @@
+{
+  "stage": "1010G_RENDER_DIRECTIVE_ADAPTER_CONTRACT",
+  "final_status": "XIAOJIAO_RENDER_DIRECTIVE_ADAPTER_CONTRACT_PASS",
+  "zip_path": "docs/audit_packages/xiaojiao_render_directive_adapter_contract_1010G.zip",
+  "zip_sha256": "70BB4DAAC863240226D41A66F333AF022981D736EA92A187DC29127CB5D16E72",
+  "zip_entry_count": 7,
+  "zip_entries": [
+    "docs/foundation/xiaojiao_render_directive_adapter_contract_1010G.md",
+    "docs/foundation/xiaojiao_render_directive_adapter_contract_1010G.json",
+    "samples/xiaojiao_render_directive_adapter_contract_1010G/render_directive_adapter_sample_1010G.json",
+    "docs/audit/xiaojiao_render_directive_adapter_contract_1010G_result.json",
+    "docs/audit/xiaojiao_render_directive_adapter_contract_1010G_report.md",
+    "scripts/validate_xiaojiao_render_directive_adapter_contract_1010G.py",
+    "docs/audit_packages/xiaojiao_render_directive_adapter_contract_1010G_manifest.json"
+  ],
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "forbidden_files_present": [],
+  "marker": "ALL_1010G_RENDER_DIRECTIVE_ADAPTER_CONTRACT_CHECKS_OK"
+}

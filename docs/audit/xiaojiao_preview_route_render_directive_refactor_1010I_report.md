@@ -1,0 +1,16 @@
+# 1010I_PREVIEW_ROUTE_RENDER_DIRECTIVE_REFACTOR Report
+
+```text
+final_status=XIAOJIAO_PREVIEW_ROUTE_RENDER_DIRECTIVE_REFACTOR_PASS
+decision=PASS
+caveat=PREVIEW_ONLY_RENDER_DIRECTIVE_BINDING
+```
+
+The preview route remains non-default. The old strong Agent page is preserved.
+No provider/model/API key, database, memory, Feishu, formal export, real resource
+library, teacher control, public display, student runtime, production generation,
+or formal apply was introduced.
+
+```text
+ALL_1010I_PREVIEW_ROUTE_RENDER_DIRECTIVE_REFACTOR_CHECKS_OK
+```

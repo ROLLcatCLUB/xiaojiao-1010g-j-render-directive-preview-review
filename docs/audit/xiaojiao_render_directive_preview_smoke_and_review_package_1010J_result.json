@@ -1,0 +1,49 @@
+{
+  "stage": "1010J_RENDER_DIRECTIVE_PREVIEW_SMOKE_AND_REVIEW_PACKAGE",
+  "final_status": "XIAOJIAO_RENDER_DIRECTIVE_PREVIEW_SMOKE_AND_REVIEW_PACKAGE_PASS",
+  "pass": true,
+  "marker": "ALL_1010J_RENDER_DIRECTIVE_PREVIEW_SMOKE_AND_REVIEW_PACKAGE_CHECKS_OK",
+  "preview_route_path": "frontend/xiaojiao-preview.html",
+  "supported_surface_modes": [
+    "light_entry",
+    "focus_surface",
+    "semantic_confirmation",
+    "handout_candidate_preview",
+    "teacher_review_gate"
+  ],
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "real_database_written": false,
+    "database_written": false,
+    "real_memory_written": false,
+    "memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": true,
+    "frontend_runtime_modified": true,
+    "preview_route_only": true,
+    "default_route_changed": false,
+    "old_strong_agent_page_preserved": true,
+    "production_dependency_installed": false,
+    "real_resource_library_connected": false,
+    "teacher_control_runtime_entered": false,
+    "public_display_runtime_entered": false,
+    "student_side_runtime_entered": false,
+    "production_generation_performed": false,
+    "formal_writeback_performed": false,
+    "formal_apply_performed": false,
+    "auto_teacher_approval_performed": false,
+    "teacher_review_required": true
+  },
+  "validation": {
+    "py_compile": "PASS",
+    "js_syntax_check": "PASS",
+    "validator_no_arg": "PASS",
+    "validator_root": "PASS",
+    "manifest_minus_zip": [],
+    "zip_minus_manifest": []
+  },
+  "next_stage": "1010J_REVIEW_PENDING_BEFORE_PROVIDER_SANDBOX_OR_DEFAULT_ROUTE_SWITCH"
+}

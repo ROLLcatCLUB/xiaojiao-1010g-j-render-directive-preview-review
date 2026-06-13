@@ -1,0 +1,22 @@
+{
+  "stage": "1010H_MOCK_WORK_STATE_TO_RENDER_DIRECTIVE_BINDING",
+  "final_status": "XIAOJIAO_MOCK_WORK_STATE_TO_RENDER_DIRECTIVE_BINDING_PASS",
+  "zip_path": "docs/audit_packages/xiaojiao_mock_work_state_to_render_directive_binding_1010H.zip",
+  "zip_sha256": "2C51FDEDA534D28B9D7270D440208925347F2DE11AB4A33531EC10B0939F61DB",
+  "zip_entry_count": 9,
+  "zip_entries": [
+    "docs/foundation/xiaojiao_mock_work_state_to_render_directive_binding_1010H.md",
+    "docs/foundation/xiaojiao_mock_work_state_to_render_directive_binding_1010H.json",
+    "samples/xiaojiao_mock_work_state_to_render_directive_binding_1010H/render_directives_1010H.json",
+    "samples/xiaojiao_mock_work_state_to_render_directive_binding_1010H/mock_work_state_1010H.json",
+    "samples/xiaojiao_mock_work_state_to_render_directive_binding_1010H/mock_composer_rules_1010H.json",
+    "docs/audit/xiaojiao_mock_work_state_to_render_directive_binding_1010H_result.json",
+    "docs/audit/xiaojiao_mock_work_state_to_render_directive_binding_1010H_report.md",
+    "scripts/validate_xiaojiao_mock_work_state_to_render_directive_binding_1010H.py",
+    "docs/audit_packages/xiaojiao_mock_work_state_to_render_directive_binding_1010H_manifest.json"
+  ],
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "forbidden_files_present": [],
+  "marker": "ALL_1010H_MOCK_WORK_STATE_TO_RENDER_DIRECTIVE_BINDING_CHECKS_OK"
+}

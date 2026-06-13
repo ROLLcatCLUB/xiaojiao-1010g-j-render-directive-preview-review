@@ -1,0 +1,340 @@
+{
+  "smoke_checklist": [
+    "open preview route",
+    "mockWorkState exists",
+    "Composer generates light_entry_directive",
+    "click now handle -> focus_surface_directive",
+    "shorten inquiry -> inquiry_section_minutes=18",
+    "redesign -> thinking + confirm",
+    "generate candidate -> candidate directive",
+    "enter review -> teacher_review_required=true",
+    "record note -> evidence_event_candidate",
+    "formal_apply_performed=false"
+  ],
+  "render_directive_trace": [
+    {
+      "directive_id": "light_entry_directive",
+      "surface_mode": "light_entry",
+      "primary_object": {
+        "id": "today_priority",
+        "type": "today_work_item",
+        "title": "今天 3 节课，1 项待你确认"
+      },
+      "supporting_objects": [
+        {
+          "id": "handout_L003",
+          "type": "handout"
+        },
+        {
+          "id": "rubric_L003",
+          "type": "rubric"
+        }
+      ],
+      "visible_zones": [
+        "primary_object",
+        "agent_notes",
+        "available_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "right_ai_panel",
+        "grid_studio"
+      ],
+      "agent_notes": [
+        {
+          "id": "note_section_2_time",
+          "attach_to": "lesson_structure.section_2",
+          "text": "探究 25 分钟偏长。"
+        }
+      ],
+      "available_actions": [
+        {
+          "id": "open_lesson_focus"
+        },
+        {
+          "id": "generate_handout_candidate"
+        },
+        {
+          "id": "enter_teacher_review"
+        }
+      ],
+      "intent_bar_policy": {
+        "enabled": false,
+        "phase": "collapsed"
+      },
+      "teacher_review_required": false,
+      "formal_apply_performed": false
+    },
+    {
+      "directive_id": "focus_surface_directive",
+      "surface_mode": "focus_surface",
+      "primary_object": {
+        "id": "lesson_L003",
+        "type": "lesson_design",
+        "title": "《色彩的感觉》"
+      },
+      "supporting_objects": [
+        {
+          "id": "handout_L003",
+          "type": "handout"
+        },
+        {
+          "id": "rubric_L003",
+          "type": "rubric"
+        }
+      ],
+      "visible_zones": [
+        "primary_object",
+        "agent_notes",
+        "available_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "right_ai_panel",
+        "grid_studio"
+      ],
+      "agent_notes": [
+        {
+          "id": "note_section_2_time",
+          "attach_to": "lesson_structure.section_2",
+          "text": "探究 25 分钟偏长。"
+        }
+      ],
+      "available_actions": [
+        {
+          "id": "open_lesson_focus"
+        },
+        {
+          "id": "generate_handout_candidate"
+        },
+        {
+          "id": "enter_teacher_review"
+        }
+      ],
+      "intent_bar_policy": {
+        "enabled": true,
+        "phase": "collapsed"
+      },
+      "teacher_review_required": false,
+      "formal_apply_performed": false
+    },
+    {
+      "directive_id": "semantic_confirmation_directive",
+      "surface_mode": "semantic_confirmation",
+      "primary_object": {
+        "id": "lesson_L003",
+        "type": "lesson_design",
+        "title": "《色彩的感觉》"
+      },
+      "supporting_objects": [
+        {
+          "id": "handout_L003",
+          "type": "handout"
+        },
+        {
+          "id": "rubric_L003",
+          "type": "rubric"
+        }
+      ],
+      "visible_zones": [
+        "primary_object",
+        "agent_notes",
+        "available_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "right_ai_panel",
+        "grid_studio"
+      ],
+      "agent_notes": [
+        {
+          "id": "note_section_2_time",
+          "attach_to": "lesson_structure.section_2",
+          "text": "探究 25 分钟偏长。"
+        }
+      ],
+      "available_actions": [
+        {
+          "id": "open_lesson_focus"
+        },
+        {
+          "id": "generate_handout_candidate"
+        },
+        {
+          "id": "enter_teacher_review"
+        }
+      ],
+      "intent_bar_policy": {
+        "enabled": false,
+        "phase": "collapsed"
+      },
+      "teacher_review_required": false,
+      "formal_apply_performed": false
+    },
+    {
+      "directive_id": "handout_candidate_preview_directive",
+      "surface_mode": "handout_candidate_preview",
+      "primary_object": {
+        "id": "handout_candidate_L003",
+        "type": "handout_candidate",
+        "title": "《色彩的感觉》学习单"
+      },
+      "supporting_objects": [
+        {
+          "id": "handout_L003",
+          "type": "handout"
+        },
+        {
+          "id": "rubric_L003",
+          "type": "rubric"
+        }
+      ],
+      "visible_zones": [
+        "primary_object",
+        "agent_notes",
+        "available_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "right_ai_panel",
+        "grid_studio"
+      ],
+      "agent_notes": [
+        {
+          "id": "note_section_2_time",
+          "attach_to": "lesson_structure.section_2",
+          "text": "探究 25 分钟偏长。"
+        }
+      ],
+      "available_actions": [
+        {
+          "id": "open_lesson_focus"
+        },
+        {
+          "id": "generate_handout_candidate"
+        },
+        {
+          "id": "enter_teacher_review"
+        }
+      ],
+      "intent_bar_policy": {
+        "enabled": true,
+        "phase": "collapsed"
+      },
+      "teacher_review_required": false,
+      "formal_apply_performed": false
+    },
+    {
+      "directive_id": "teacher_review_gate_directive",
+      "surface_mode": "teacher_review_gate",
+      "primary_object": {
+        "id": "handout_candidate_L003",
+        "type": "handout_candidate",
+        "title": "《色彩的感觉》学习单"
+      },
+      "supporting_objects": [
+        {
+          "id": "handout_L003",
+          "type": "handout"
+        },
+        {
+          "id": "rubric_L003",
+          "type": "rubric"
+        }
+      ],
+      "visible_zones": [
+        "primary_object",
+        "agent_notes",
+        "available_actions"
+      ],
+      "hidden_zones": [
+        "resource_library_home",
+        "right_ai_panel",
+        "grid_studio"
+      ],
+      "agent_notes": [
+        {
+          "id": "note_section_2_time",
+          "attach_to": "lesson_structure.section_2",
+          "text": "探究 25 分钟偏长。"
+        }
+      ],
+      "available_actions": [
+        {
+          "id": "open_lesson_focus"
+        },
+        {
+          "id": "generate_handout_candidate"
+        },
+        {
+          "id": "enter_teacher_review"
+        }
+      ],
+      "intent_bar_policy": {
+        "enabled": true,
+        "phase": "collapsed"
+      },
+      "teacher_review_required": true,
+      "formal_apply_performed": false
+    }
+  ],
+  "work_state_change_trace": [
+    {
+      "action": "open_lesson_focus",
+      "current_surface": "focus_surface"
+    },
+    {
+      "action": "shorten_inquiry",
+      "inquiry_section_minutes": 18
+    },
+    {
+      "action": "generate_handout_candidate",
+      "handout_status": "candidate_pending_review"
+    },
+    {
+      "action": "enter_teacher_review",
+      "teacher_review_required": true
+    }
+  ],
+  "event_log_trace": [
+    "open_workbench",
+    "surface_focus",
+    "shorten_inquiry",
+    "generate_handout_candidate",
+    "surface_gate",
+    "evidence_event_candidate"
+  ],
+  "user_review_questions": [
+    "render_directive 驱动后体验是否保持？",
+    "是否允许进入 provider sandbox？",
+    "是否允许接真实 Work State Store？",
+    "是否允许进一步接真实前端默认入口？",
+    "是否需要继续视觉小修？"
+  ],
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "real_database_written": false,
+    "database_written": false,
+    "real_memory_written": false,
+    "memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": true,
+    "frontend_runtime_modified": true,
+    "preview_route_only": true,
+    "default_route_changed": false,
+    "old_strong_agent_page_preserved": true,
+    "production_dependency_installed": false,
+    "real_resource_library_connected": false,
+    "teacher_control_runtime_entered": false,
+    "public_display_runtime_entered": false,
+    "student_side_runtime_entered": false,
+    "production_generation_performed": false,
+    "formal_writeback_performed": false,
+    "formal_apply_performed": false,
+    "auto_teacher_approval_performed": false,
+    "teacher_review_required": true
+  }
+}

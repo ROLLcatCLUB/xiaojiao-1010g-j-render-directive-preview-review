@@ -1,0 +1,82 @@
+{
+  "render_directive_schema": {
+    "surface_mode": [
+      "light_entry",
+      "focus_surface",
+      "semantic_confirmation",
+      "handout_candidate_preview",
+      "teacher_review_gate"
+    ],
+    "primary_object": {
+      "id": "string",
+      "type": "work_object_type",
+      "title": "string"
+    },
+    "supporting_objects": "array",
+    "visible_zones": "array",
+    "hidden_zones": "array",
+    "agent_notes": [
+      {
+        "id": "note_id",
+        "attach_to": "work_object_path",
+        "text": "string"
+      }
+    ],
+    "available_actions": [
+      {
+        "id": "action_id",
+        "label": "teacher visible label",
+        "target_surface": "surface_mode"
+      }
+    ],
+    "intent_bar_policy": {
+      "enabled": true,
+      "phase": "collapsed|input|thinking|confirm|done"
+    },
+    "teacher_review_required": "boolean",
+    "formal_apply_performed": false
+  },
+  "adapter_responsibilities": [
+    "receive render_directive",
+    "select surface",
+    "map primary_object",
+    "map supporting_objects",
+    "attach agent_notes",
+    "map available_actions",
+    "respect teacher_review_required"
+  ],
+  "adapter_forbidden": [
+    "provider/model call",
+    "database write",
+    "memory write",
+    "formal apply",
+    "default route change",
+    "skip teacher review"
+  ],
+  "boundary_flags": {
+    "provider_called": false,
+    "model_called": false,
+    "api_key_configured": false,
+    "real_database_written": false,
+    "database_written": false,
+    "real_memory_written": false,
+    "memory_written": false,
+    "Feishu_written": false,
+    "formal_export_created": false,
+    "real_frontend_runtime_modified": true,
+    "frontend_runtime_modified": true,
+    "preview_route_only": true,
+    "default_route_changed": false,
+    "old_strong_agent_page_preserved": true,
+    "production_dependency_installed": false,
+    "real_resource_library_connected": false,
+    "teacher_control_runtime_entered": false,
+    "public_display_runtime_entered": false,
+    "student_side_runtime_entered": false,
+    "production_generation_performed": false,
+    "formal_writeback_performed": false,
+    "formal_apply_performed": false,
+    "auto_teacher_approval_performed": false,
+    "teacher_review_required": true
+  }
+}

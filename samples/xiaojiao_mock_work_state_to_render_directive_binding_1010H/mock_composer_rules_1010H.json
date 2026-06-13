@@ -1,0 +1,7 @@
+{
+  "light_entry": "current_surface=light_entry -> light_entry_directive",
+  "open_lesson_focus": "action=open_lesson_focus -> focus_surface_directive",
+  "generate_handout_candidate": "action=generate_handout_candidate -> semantic_confirmation or handout_candidate_preview",
+  "enter_teacher_review": "action=enter_teacher_review -> teacher_review_gate_directive",
+  "teacher_review_required": "formal_apply remains false"
+}
